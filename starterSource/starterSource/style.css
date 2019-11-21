@@ -32,3 +32,16 @@ h3 {
   background-color:#642580;
   padding:50px 80px;
 }
+
+.kitchen-equipment{
+  background-image: url("utensils.JPG");
+}
+
+.cd-logo, .kitchen-equipment{
+  position:relative;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-color: #642580;
+  background-size: cover;
+  min-height:100%;
+}
