@@ -5,13 +5,26 @@ body, html {
   color: White;
 }
 
-.cd-logo {
+.cd-logo, .kitchen-equipment, .cake-ingredients {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #642580;
   background-size: cover;
   min-height: 100%;
+
+  background-attachment: fixed;
+}
+
+.cd-logo, .kitchen-equipment {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #642580;
+  background-size: cover;
+
+  background-attachment: fixed;
+  min-height: 50%;
 }
 
 .cd-logo {
@@ -37,11 +50,21 @@ h3 {
   background-image: url("utensils.JPG");
 }
 
-.cd-logo, .kitchen-equipment{
-  position:relative;
-  background-position:center;
-  background-repeat: no-repeat;
-  background-color: #642580;
-  background-size: cover;
-  min-height:100%;
+.cake-ingredients{
+  background-image: url("ingredients.jpg");
+}
+
+.caption{
+  position:absolute;
+  top:40%;
+  width:100%;
+  text-align:center;
+}
+
+.border{
+  background-color:#41BAC1;
+  color:white;
+  padding:18px;
+  font-size:25px;
+  letter-spacing:10px;
 }
