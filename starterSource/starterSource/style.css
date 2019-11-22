@@ -68,7 +68,7 @@ h3 {
 
 .roseCake{
   background-image:url("rosecake.jpg");
-  
+
 }
 
 .caption{
@@ -84,4 +84,10 @@ h3 {
   padding:18px;
   font-size:25px;
   letter-spacing:10px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .cd-logo, .kitchen-equipment, .cake-ingredients, .cake, .preparation, .cooking, .roseCake{
+    background-attachment:scroll;
+  }
 }
